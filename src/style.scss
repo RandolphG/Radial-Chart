@@ -1,0 +1,53 @@
+$background: #000;
+$chars: "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+  font-family: 'Fire Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: $background;
+  padding: 0;
+  margin: 0;
+
+}
+
+.icon {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.goal, .completed {
+  font-family: 'Roboto', 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  fill: white;
+  text-anchor: middle;
+}
+
+.goal {
+  font-size: 30px;
+
+
+}
+
+.completed {
+  font-size: 95px;
+}
